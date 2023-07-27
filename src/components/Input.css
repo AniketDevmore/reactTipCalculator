@@ -1,0 +1,78 @@
+#inputTitle {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(3, 88, 88);
+}
+
+/* inputs */
+#inputAmount {
+  width: 80%;
+}
+select {
+  border-width: 2px;
+  width: 105px;
+}
+#disabledValue {
+  text-decoration-color: rgb(99, 98, 98);
+}
+input,
+select {
+  margin: 5px;
+  height: 38px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  border-color: aqua;
+  text-align: center;
+}
+input:focus,
+select:focus {
+  outline: none;
+  border-color: rgb(0, 209, 209);
+}
+
+#rateService {
+  font-weight: 500;
+  color: rgb(4, 53, 53);
+}
+
+#break {
+  display: none;
+}
+@media only screen and (max-width: 655px) {
+  #break {
+    display: block;
+  }
+}
+
+/* Output section */
+#outputTitle,
+#tipCustomer {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(3, 88, 88);
+}
+#tipCustomer {
+  color: #fff;
+  padding: 4px;
+  text-shadow: 2px 2px 3px rgb(141, 147, 236);
+  margin-bottom: 8px;
+}
+ul {
+  text-align: left;
+  padding: 0 80px;
+}
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}
+thead {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(2, 36, 36);
+}
